@@ -3,7 +3,7 @@
 body, html {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
+    background-color: #fffffff1;
 }
 
 /* classes auxiliares */
@@ -29,7 +29,7 @@ body, html {
 .container {
     max-width: 100%;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #fffffff1;
 }
 
 .h-center {
@@ -47,7 +47,7 @@ body, html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 89px;
+    padding: 150px;
 }
 
 .d-colunm {
@@ -110,7 +110,7 @@ body, html {
 }
 .line-h {
     line-height: 30px;
-   text-align: justify;
+    text-align: justify;
 }
 
 .button {
@@ -156,7 +156,7 @@ nav {
 .menu > a {
     padding: 0 30px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .box {
@@ -174,6 +174,15 @@ nav {
     background-size: cover;
     background-position: 100%;
     background-attachment: fixed;
+}
+
+.bannerhero::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #30301b;
+    opacity: 0.42;
 }
 
 .img {
@@ -203,6 +212,12 @@ input {
     border: none;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+.footer {
+    padding: 20px 12px;
+    text-align: center;
+    font-size: 18px;
 }
 
 
