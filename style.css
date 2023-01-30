@@ -108,6 +108,10 @@ body, html {
 .mt-2 {
     margin-top: 170px;
 }
+.line-h {
+    line-height: 30px;
+   text-align: justify;
+}
 
 .button {
     background-color: #0D0D0C;
