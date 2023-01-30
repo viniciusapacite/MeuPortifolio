@@ -9,7 +9,7 @@ body, html {
 /* classes auxiliares */
 
 
-/* aparti daqui irei aplicar algo parecido com framework como bootstrap com base no layout que desenvolvi */
+/* 1 - aparti daqui irei aplicar algo parecido com framework como bootstrap com base no layout que desenvolvi */
 
 .f-regular {
     font-family: 'Roboto', sans-serif;
@@ -194,7 +194,7 @@ h4 {
 input {
     width: 400px;
     height: 49px;
-    padding: 0 2%;
+    padding: 0 4%;
     outline: none;
     border: none;
     border-radius: 10px;
