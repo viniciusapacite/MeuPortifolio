@@ -1,235 +1,150 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href='style.css' />
+    <link rel="stylesheet" href="responsive.css" media="screen and (max-width:992px)"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+    <meta name="description" content="Desenvolvedor web e UI,UX."/>
+    <title>Vinicius</title>
 </head>
-<style>
-  *{margin: 0;padding: 0; box-sizing: 0;}
-</style>
-<body style="background-color:#191E29; width: 100%; margin: 0 auto;">
-
-  <div class="row w-100 mx-auto z-2 position-sticky" style=" background: url(assets/textura.jpg) no-repeat fixed center; ">
-<div style="background: rgba(19, 45, 70, 0.3);">
-
-
- 
-  <div class="container mt-4 w-100">
-    <div class="row mx-auto text-center" style="padding-bottom:4%;">
-      <div class="col-12 mx-auto" style="width: 450px;">   
-                <ul class="nav mx-auto text-center position-fixed " style="background-color: #191E29; border-radius: 20px; box-shadow: 0px 0px 100px #01C38D;">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#" style="color: rgba(255, 255, 255, 0.7); font-size: 1rem;">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#" style="color: rgba(255, 255, 255, 0.7); font-size: 1rem;">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#" style="color: rgba(255, 255, 255, 0.7); font-size: 1rem;">Projetos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link "  href="#"  style="color: rgba(255, 255, 255, 0.7); font-size: 1rem;">Contato</a>
-                    </li><!--nav-item-->
-                  </ul><!--ul-->
-            </div><!--col-->
-        </div><!--row-->
-    </div><!--container-->
-    <div class="container mx-auto text-center" style="padding: 10% 2%;">
-      <div class="row mx-auto">
-        <div class="col-12">
-            <h1 class="mx-auto fw-bolder" style="font-size: 95px; line-height: 75px; color: #01C38D;">
-              Vinicius <br> Apacite
-            </h1>
-            <br>
-            <p class="w-75 text-wrap mx-auto pt-2" style="color: rgb(255, 255, 255); opacity: 0.6; padding: 0 2%; margin: 2rem 0;" >
-              Tenho 21 ano, sou desenvolvedor web a mais de 1 ano e designer ux/ui.
-              Meu primeiro contato como desenvolvedor de sites foi aos 19 ano
-              quando criei meu primeiro “site”. 
-            </p>
-            <br>
-            <button type="button" class="btn btn-lg mt-3"  style="border-radius: 4px; border: none;  background-color: #01C38D; color: white; box-shadow: 0px 4px 100px #01c38caf;"><a href="#Contato" style="text-decoration: none; color: white;" >Me envie  um mensagem</a></button>
-        </div><!--col-->
-      </div><!--row-->
-    </div><!--container-->
-  </div><!--final-->
-</div>
-    <div class="container-fluid" style="background-color:#191e29;">
-      <div class="container w-100" style="margin-top: 0; padding: 5% 0;">
-        <div class="row mx-auto">
-          <div class="row z-2 position-absolute" style="margin-top: 15rem; margin-left: -8rem; background-color: #01C38D; width: 80px; height: 80px; border-radius: 100px; filter: blur(100px);" >
+<body>
+    <section class="container">
+      <nav>
+          <ul class="menu">
+             <a href="">Home</a>
+             <a href="">Portifolio</a>
+             <a href="">Sobre Mim</a>
+             <a href="">Contato</a>
+          </ul><!--menu-->
+      </nav><!--nav-->
+      <div class="box">
+        <div class="bannerhero"></div>
+      </div><!--banner-->
+    </section><!--container-->
+      <div class="clear"></div>
+        <section class="container d-flex  work">
+          <div class="w-50 order1">
+            <div class="content">
+              <h3 class="f-bold">DEV TECH</h3>
+              <p class="p">
+                Este site onde tudo pode onde nao tem limite de credito bancario economico 
+                justo agora epoca dficil 
+              </p>
+              <a class="button" href="">Veja mais</a>
+            </div><!--content-->
+          </div><!--w-left-->
+            <div class="w-50 order2 ">
+                <img src="assets/DEVTECH-3.jpg" width="100%"  height="100%" alt="">
+            </div><!--w-right-->
+        </section><!--container-->
+        <div class="clear"></div>
+        <section class="container d-flex work">
+          <div class="w-50 order2 ord1">
+            <div class="content">
+              <h3 class="f-bold" >DEV TECH</h3>
+              <p class="p">
+                Este site onde tudo pode onde nao tem limite de credito bancario economico 
+                justo agora epoca dficil 
+              </p>
+              <a class="button" href="">Veja mais</a>
+            </div><!--content-->
+          </div><!--w-left-->
+            <div class="w-50 order1 ord2" >
+                <img src="assets/AGENCIALOOP-3.jpg" width="100%" height="100%" alt="">
+            </div><!--w-right-->
+        </section><!--container-->
+        <div class="clear"></div>
+        <section class="container d-flex work">
+          <div class="w-50 order1">
+            <div class="content">
+              <h3 class="f-bold">DEV TECH</h3>
+              <p class="p">
+                Este site onde tudo pode onde nao tem limite de credito bancario economico 
+                justo agora epoca dficil 
+              </p>
+              <a class="button" href="">Veja mais</a>
+            </div><!--content-->
+          </div><!--w-left-->
+            <div class="w-50 order2" >
+                <img src="assets/EASY BANK.jpg" width="100%" height="100%" alt="">
+            </div><!--w-right-->
+        </section><!--container-->
+        <div class="clear"></div>
+        <section class="container">
+          <div class="d-flex bg-2 h-100">
+              <img src="assets/UI UX.jpg"  width="33.3%" alt="">
+              <img src="assets/SEO.jpg"  width="33.3%" alt="">
+              <img src="assets/MOBILE FIRST.png"  width="33.4%" alt="">
+          </div><!--d-flex-->
+        </section><!--container -->
+        <div class="clear"></div>
+        <section class="container d-flex  h-100" style="padding: 100px 0;">
+          <div class="">
+            <img class="mt" src="assets/VINICIUS APACITE.png" width="80%" alt="">
           </div>
-          <div class="col-sm-3 text-center" style=" padding: 40px;">
-              <img src="assets/html.svg" max-width="100%" alt="">
-          </div><!--div-img-->
-          <div class="col-sm-3 text-center" style=" padding: 40px;">
-              <img  src="assets/css.svg" max-width="100%" alt="">
-          </div><!--div-img-->
-          <div class="col-sm-3 text-center" style=" padding: 40px;">
-              <img  src="assets/javascript.svg" max-width="100%" alt="">
-          </div><!--div-img-->
-          <div class="col-sm-3 text-center" style=" padding: 40px; padding-bottom: 0;">
-              <img  src="assets/php.svg" max-width="100%" alt="">
-          </div><!--div-img-->
-          </div><!--col-->
-        </div><!--row-->
-      </div><!--conatiner-->
-    </div>
-    <div class="container">
-      <div class="row mx-auto text-center">
-          <div class="card mx-auto" style="width: 18rem; margin: 4rem 50px; background-color: transparent; border: none;">
-            <div class="card-body">
-              <img src="assets/preview.svg" alt="" style="margin: 15px 0;" >
-              <h6 class="fw-bold" style="color: white;">+15 <span style="color: #01C38D;">Projetos</span></h6>
-              <h5 class="card-title" style="color: #01C38D;">UI E UX DESIGNER</h5>
-              <p class="card-text" style="color: white;" >Criaçao de projetos com base e estudos e calculos com base no objetivo do site </p>
-            </div>
-          </div>
-          <div class="card mx-auto" style="width: 18rem; background-color: transparent; border: none; margin:  4rem 50px;">
-            <div class="card-body">
-              <img src="assets/seo.svg" alt="" style="margin: 15px 0;" >
-              <h6 class="fw-bold" style="color: white;">+15 <span style="color: #01C38D;">Projetos</span></h6>
-              <h5 class="card-title" style="color: #01C38D;">WEB DESIGN</h5>
-              <p class="card-text"  style="color: white;">Criaçao de projetos com base e estudos e calculos com base no objetivo do site </p>
-            </div>
-          </div>
-          <div class="card mx-auto" style="width: 18rem; background-color: transparent; border: none; margin: 4rem 50px;">
-            <div class="card-body">
-              <img src="assets/tv.svg" alt="" style="margin: 15px 0;" >
-              <h6 class="fw-bold" style="color: white;">+15 <span style="color: #01C38D;">Projetos</span></h6>
-              <h5 class="card-title" style="color: #01C38D;">WEB DESIGN</h5>
-              <p class="card-text"  style="color: white;">Criaçao de projetos com base e estudos e calculos com base no objetivo do site </p>
-            </div><!--card-box-->
-          </div><!--card-->
-        </div><!--row-->
-      </div><!--conatiner-->
-      <div class="container-fluid" style="background-color:#191E29;">
-        <div class="container" style="background-color: #191E29; padding: 4% 2%;" >
-          <div class="row">
-            <div class="col" style="margin: 8rem 0; ">
-              <div class="card mb-3 mx-auto" style="max-width: 840px; border: none; background-color: #191E29; ">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="assets/Macbook-1.svg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body mt-1 ms-3">
-                      <h5 class="card-title fw-bold" style="color: #01C38D;">YelpCamp</h5>
-                      <p class="card-text" style="color: rgba(255, 255, 255, 0.7);">O conceito é compartilhar experiências vivenciadas por outros campistas, onde outras pessoas se sintam seguras ao pesquisar.</p>
-                      <button type="button" class="btn  btn-lg" style="border-radius: 4px; border: none;  background-color: #01C38D; color: white; font-size: 16px; box-shadow: 0px 0px 30px #01c38c75;">Veja Mais</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3 mx-auto" style="max-width: 840px; border: none; background-color: #191E29;">
-                <div class="row g-0" style="margin-top: 8rem;">
-                  <div class="col-md-4">
-                    <img src="assets/Macbook-2.svg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body  mt-1 ms-3">
-                      <h5 class="card-title fw-bold" style="color: #01C38D;">Easy Bank</h5>
-                      <p class="card-text" style="color: rgba(255, 255, 255, 0.7);">Site Easy Bank oferece a transformação de sua conta em seu principal centro financeiro nos principais desenvimento em fazer orcamanentos, investir e muito mais.</p>
-                      <button type="button" class="btn  btn-lg" style="border-radius: 4px; border: none;  background-color: #01C38D; color: white; font-size: 16px; box-shadow: 0px 0px 30px #01c38c75;">Veja Mais</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3 mx-auto" style="max-width: 840px; border: none; background-color: #191E29;">
-                <div class="row g-0" style="margin-top: 8rem;">
-                  <div class="col-md-4">
-                    <img src="assets/Macbook-3.svg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body  mt-1 ms-3">
-                      <h5 class="card-title fw-bold" style="color: #01C38D;">Agencia Loop</h5>
-                      <p class="card-text" style="color: rgba(255, 255, 255, 0.7);">Agencia Loop, site focado nos principais serviços de comunicação, SEO, sites e sistemas.</p>
-                      <button type="button" class="btn  btn-lg" style="border-radius: 4px; border: none;  background-color: #01C38D; color: white; font-size: 16px; box-shadow: 0px 0px 30px #01c38c75;">Veja Mais</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3 mx-auto" style="max-width: 840px; border: none; background-color: #191E29;">
-                <div class="row g-0" style="margin-top: 8rem;">
-                  <div class="col-md-4">
-                    <img src="assets/Macbook-4.svg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body  mt-1 ms-3">
-                      <h5 class="card-title fw-bold" style="color: #01C38D;">Dev Tech</h5>
-                      <p class="card-text" style="color: rgba(255, 255, 255, 0.7);">Gereciamento com SEO para rankear sua empresa a outro nivel, assim merecendo reconhecimento e visibilidade. </p>
-                      <button type="button" class="btn  btn-lg" style="border-radius: 4px; border: none;  background-color: #01C38D; color: white; font-size: 16px; box-shadow: 0px 0px 30px #01c38c75;">Veja Mais</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!--col-->
-          </div><!--row-->
-        </div><!--container-->
-        
-      </div>
-      <div class="container mx-auto w-100" style="padding:5% 4%;">
-        <div class="row mt-5" >
-          <form  id="Contato"class=" mx-auto text-center" style="width: 500px;">
-            <fieldset style="border: none;">
-              <h2 style="color: white;">Contato</h2>
-              <h3 style="color: #01C38D;" >Escreva em linha.</h3>
-              <div class="mb-3 text-center">
-                <label for="disabledTextInput" class="form-label">Digite seu nome</label>
-                <input type="text" id="disabledTextInput" class="form-control" placeholder="Digite seu nome" style="border-radius: 4px; height: 50px;" >
-              </div>
-              <div class="mb-3">
-                <label for="disabledSelect" class="form-label">Digite seu  Telefone</label>
-                <input type="text" id="disabledTextInput" class="form-control" placeholder="Digite seu  Telefone" style=" border-radius: 4px; height: 50px;">
-              </div>
-              <div class="mb-3">
-                <label for="disabledSelect" class="form-label">Digite seu  Telefone</label>
-                <input type="text" id="disabledTextInput" class="form-control" placeholder="Digite seu  Telefone" style="border-radius: 4px; height: 50px;">
-              </div>
+          <div class="w-50 order1">
+              <div class="d-colunm mt-2">
+                <H2 class="f-bold">Sobre Mim</H2>
+                <p class="p">
+                  Sou vinicius  desenvolvedor front end e ux ui
+                  trabalho com desenvimento de sites. Meu primeiro
+                  contato com a programação foi no primeiro site criado
+                  por um projeto pessoal desenvolvido com ferramentas 
+                  básicas.
+                </p>
+                <a class="button" href="#">Baixa CV</a>
+              </div><!--d-colunm-->
+            </div><!--w-50-->
+        </section><!--container-->
+        <div class="clear"></div>
+        <section class="container bg-3 h-100">
+          <div class="d-between h-100">
+
+            <div class="h-center">
+              <p class="line"></p>
+              <h4>Segurança de dados</h4>
               <br>
-             
-              <button type="submit" class="btn fw-bolder fs-5" style="width: 100%; letter-spacing: 1px; background-color: #01C38D; color: white; height: 45px; border-radius: 4px; box-shadow: 0px 0px 140px #01c38ca6;" >Enviar</button>
-            </fieldset>
-          </form>
-        </div>
-      </div>
+              <br>
+              <p class="line"></p>
+              <h4>Mensagem de serviços e ofertas.</h4>
+              <br>
+              <br>
+              <p class="line"></p>
+              <h4>Mensagem de serviços e ofertas.</h4>
+              <br>
+            </div>
 
-      <div class="container mx-auto">
-        <div class="row mt-5" > 
-          <div class="col-md-4 mx-auto my-5" >
-            <div class="card mx-auto" style="width: 18rem; background-color: transparent; border: none;" >
-              <img src="assets/shild.svg" class="card-img-top mx-auto" alt="..." style="width: 90px; height: 90px;">
-              <div class="card-body">
-                <p class="card-text text-center" style="color:#FFFFFF ;">Segurança total sobre o contato.</p>
-              </div><!--card-body-->
-            </div><!--card-->
-          </div><!--col-->
-    
-            <div class="col-md-4 my-5">
-              <div class="card mx-auto" style="width: 18rem; background-color: transparent; border: none;" >
-                <img src="assets/email.svg" class="card-img-top mx-auto" alt="..." style="width: 90px; height: 90px;">
-                <div class="card-body">
-                  <p class="card-text text-center" style="color:#FFFFFF ;" >Após o preenchimento do campus enviamos e-mail com as principais novidades da semana.</p>
-                </div><!--card-body-->
-              </div><!--card-->
-          </div><!--col-->
+            <div class="d-colunm text">
+                <h2>NOS CONTATE</h2>
+                <br>
+                <p>Nome:
+                  <br>
+                  <input type="text">
+                </p>
+                <br>
 
-          <div class="col-md-4 my-5">
-            <div class="card mx-auto" style="width: 18rem; background-color: transparent; border: none;" >
-              <img src="assets/email.svg" class="card-img-top mx-auto" alt="..." style="width: 90px; height: 90px;">
-              <div class="card-body">
-                <p class="card-text text-center" style="color:#FFFFFF;" >Iremos enviar E-mail personalizados, produtos entre outros.</p>
-              </div><!--card-body-->
-            </div><!--card-->
+                <p>Telefone:
+                  <br>
+                  <input type="text">
+                </p>
+                <br>
+
+                <p>E-mail:
+                  <br>
+                  <input type="text">
+                </p>
+                <br>
+                <a class="button" style="border-radius: 10px; padding: 15px 40px;" href="">Enviar</a>
+            </div>
           </div>
-        </div><!--row-->
-      </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        </section>
+
+
+      
 </body>
 </html>

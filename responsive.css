@@ -1,0 +1,48 @@
+@media screen and (max-width: 992px) {
+    html, body {
+       font-size: 20px;
+    }
+
+    .content {
+        height: 100%;
+        padding: 25px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body, html {
+        font-size: 20px;
+        min-height: 100%;
+    }
+
+    .w-50 {
+        width: 100%;
+    }
+
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .content {
+        width: 100%;
+    }
+
+    .order1 {
+        order: 1;
+    }
+
+    .order2 {
+        order: 0;
+    }
+
+    .ord1 {
+        order: 2;
+    }
+
+    .ord2 {
+        order: 1;
+    }
+}
