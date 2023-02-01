@@ -7,10 +7,10 @@
         width: 100%;
         max-width: 100%;
         height: 100%;
-        background-image: url(assets/krisztian-tabori-IyaNci0CyRk-unsplash.jpg);
+        background-image: url(assets/banner.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: 100%;
+        background-position: 50%;
         background-attachment: fixed;
     }
 
@@ -21,6 +21,19 @@
         height: 100%;
         background-color: #30301b;
         opacity: 0.42;
+    }
+
+    .box::before {
+        content: 'Olá!';
+        display: block;
+        position: absolute;
+        z-index: 2;
+        color: white;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%);
+        font-size: 70px;
+        text-align: center;
     }
 
     .content {
@@ -60,7 +73,7 @@
         padding: 100px 20px;
         height: 400px;
         width: 100%;
-        background-color: rgb(0, 0, 0);
+        background-color: #0D0D0C;
         text-decoration: none;
     }
 
