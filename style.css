@@ -193,6 +193,11 @@ nav {
     transform: scale(1.5);
  }
 
+ .w-right > img {
+    position: relative;
+    top: 4px;
+ }
+
 
 
 .box {
