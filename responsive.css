@@ -205,5 +205,19 @@
         opacity: 0.6;
     }
 
+    .button {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .f-bold {
+        font-size: 22px;
+    }
+
+    .p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
     
 }
