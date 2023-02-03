@@ -162,6 +162,15 @@ nav {
     display: none;
 }
 
+.bg-1 {
+    height: 67px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    opacity: 0.8;
+}
+
+
 .menu-toggle {
     display: none;
 }
@@ -181,6 +190,10 @@ nav {
     color: white;
 }
 
+.menu > a:active {
+    color: #8488ff;
+}
+
 .menu > a:nth-child(4){
    background-color: #0D0D0C;
    border: 2px solid rgba(255, 255, 255, 0.815);
@@ -197,8 +210,6 @@ nav {
     position: relative;
     top: 4px;
  }
-
-
 
 .box {
     width: 100%;
@@ -263,7 +274,7 @@ h4 {
     position: absolute;
     z-index: 2;
 
-    top: 82%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%);
     filter: contrast(200%) brightness(150%);
@@ -281,6 +292,7 @@ input {
     border: none;
     border-radius: 15px;
     margin-top: 10px;
+    padding-left: 4%;
 }
 
 .footer {
