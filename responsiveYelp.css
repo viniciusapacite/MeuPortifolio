@@ -48,6 +48,17 @@
     .img-align {
         width: 100%;
     }
+    .button {
+        background-color: #0D0D0C;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 4px;
+        color: white;
+        position: relative;
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%);
+    }
 
     h2 {
         padding: 0 4%;
@@ -63,5 +74,13 @@
 
     p.color {
         margin-top: 25px;
+    }
+    .close > a {
+        margin: 5%;
+        padding-top: 10px;
+        color: #0D0D0C;
+    }
+    .close:hover {
+        color: #000;
     }
 }
