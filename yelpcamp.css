@@ -59,8 +59,10 @@ html, body {
     width: 100%;
     line-height: 35px;
     font-size: 20px;
+    font-weight: 600;
     text-align: left;
     padding: 0 4%;
+   
 }
 .p2 {
     max-width: 500px;
@@ -69,6 +71,9 @@ html, body {
     font-size: 20px;
     text-align: left;
     padding: 0;
+}
+.p-3 {
+    padding: 0 4%;
 }
 
 .order-1 {
@@ -90,14 +95,19 @@ html, body {
     margin-bottom: 7rem;
 }
 
+.margin-porc {
+    margin-top: 5%;
+}
+.margin-porc-2 {
+    margin-top: 5%;
+}
+
 .margin-0 {
     margin: 0 auto;
     position: relative;
     left: 50%;
     transform: translate(-50%);
 }
-
-
 .button {
     background-color: #0D0D0C;
     padding: 15px 25px;
@@ -133,6 +143,12 @@ html, body {
 
 .align {
     margin-left: 10%;
+    width: 80%;
+    color: #0D0D0C;
+}
+
+p.color {
+    color: rgba(24, 21, 17, 0.6);
 }
 
 .text > h2 {
@@ -153,3 +169,14 @@ input {
     margin-top: 10px;
     padding-left: 4%;
 }
+
+p {
+    color: rgba(48, 45, 42, 0.5);
+    font-weight: 500;
+}
+
+h3 {
+    padding: 0 4%;
+    text-align: left;
+}
+
