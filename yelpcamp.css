@@ -1,0 +1,155 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+html, body {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF6E8;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* classes auxiliares */
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-colunm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.d-colunm-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    margin-left: 17%;
+}
+
+.d-colunm-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 0;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+}
+
+.p {
+    max-width: 650px;
+    width: 100%;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: left;
+    padding: 0 4%;
+}
+.p2 {
+    max-width: 500px;
+    width: 100%;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: left;
+    padding: 0;
+}
+
+.order-1 {
+    order: 1;
+}
+.order-2 {
+    order: 2;
+}
+
+.bg {
+    background-color: #282626;
+}
+
+.margin-t{
+    margin-top: 7rem;
+}
+
+.margin-b {
+    margin-bottom: 7rem;
+}
+
+.margin-0 {
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.button {
+    background-color: #0D0D0C;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* classes auxiliares  termina aqui */
+
+.Macbook {
+    width: 100%;
+    height: auto;
+    text-align: start;
+    margin-top: 141px;
+}
+
+.imagemBanner {
+    /* box-shadow: 4px 0px 20px #a5a5a5c0; */
+    max-width: 900px;
+}
+
+.desktop {
+    width: 100%;
+    max-width: 600px;
+}
+
+.footer {
+    padding: 20px 12px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.align {
+    margin-left: 10%;
+}
+
+.text > h2 {
+    color: white;
+    left: left;
+}
+.text > p {
+    color: white;
+}
+
+input {
+    width: 400px;
+    min-width: 300px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-left: 4%;
+}

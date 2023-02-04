@@ -1,0 +1,58 @@
+@media screen and (max-width: 992px) {
+    .d-flex {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        gap: 25px;
+    }
+    .d-colunm {
+        padding: 0 4%;
+        gap: 0;
+    }
+    .d-colunm-2 {
+        margin: 0;
+        padding: 0 4%;
+        gap: 0;
+    }
+    .p {
+        width: 100%;
+        padding: 0;
+    }
+    .order-1 {
+        order: 2;
+    }
+    .order-2 {
+        order: 1;
+    }
+    .margin-t {
+        margin-top: 4rem;
+    }
+    .margin-b {
+        margin-bottom: 2.5rem;
+    }
+    .Macbook {
+        margin-top: 3rem;
+    }
+    .desktop  {
+        width: 100px;
+    }
+    .p-3 {
+        padding: 0 4%;
+    }
+    .align {
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    .img-align {
+        width: 100%;
+    }
+
+    h2 {
+        padding: 0 4%;
+    }
+   
+    input {
+        width: 90%;
+    }
+}
