@@ -144,11 +144,17 @@ html, body {
     opacity: 0.8;
 }
 
-.Macbook {
+.img {
     width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Macbook {
+    width: 75%;
     height: auto;
     text-align: start;
-    margin-top: 141px;
+    margin-top: 100px;
 }
 
 .imagemBanner {
